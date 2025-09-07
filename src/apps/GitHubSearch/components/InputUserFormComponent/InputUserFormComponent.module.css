@@ -37,3 +37,12 @@
   cursor: pointer;
   background-color: #22bcca;
 }
+
+@media (max-width: 768px) {
+  .user_form {
+    width: 90vw;
+  }
+  .user_input_element {
+    width: 75vw;
+  }
+}

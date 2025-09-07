@@ -19,18 +19,14 @@
   border-bottom: 1px solid #fff;
 }
 
-@media (max-width: 480px) {
-  .listItem {
-    width: 385px;
-  }
-  .clearCompletedButton {
-    width: 385px;
-  }
-}
-
 .mainContainer {
-  width: 39.5rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    width: 100%;
+  }
 }

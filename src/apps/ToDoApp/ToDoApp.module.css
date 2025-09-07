@@ -11,3 +11,10 @@
   font-size: xx-large;
   margin-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+  .ToDoApp {
+    justify-content: flex-start;
+    margin-top: 150px;
+  }
+}
