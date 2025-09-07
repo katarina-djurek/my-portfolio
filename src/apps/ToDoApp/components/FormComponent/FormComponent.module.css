@@ -1,0 +1,23 @@
+.mainContainer {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.inputField {
+  width: 34rem;
+  background-color: #3b7075;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem; /* like Bootstrap */
+}
+
+.inputField::placeholder {
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .inputField {
+    width: 325px;
+  }
+}

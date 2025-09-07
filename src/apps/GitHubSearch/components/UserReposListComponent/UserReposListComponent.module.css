@@ -1,0 +1,31 @@
+.list_container p {
+  font-weight: bold;
+}
+
+.list_container ul {
+  padding: 0;
+}
+
+.list_container li {
+  list-style: none;
+  box-shadow: 0px 0px 2px 0px lightgray;
+  height: 2.5rem;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.list_container button {
+  margin: 20px 0;
+  width: 70vw;
+  height: 2rem;
+  background-color: #3597a0;
+  color: white;
+  border: 1px solid #3597a0;
+  border-radius: 5px;
+}
+
+.list_container button:hover {
+  cursor: pointer;
+  background-color: #22bcca;
+}

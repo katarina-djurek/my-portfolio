@@ -1,0 +1,50 @@
+body {
+  background-color: #32494b;
+  color: white;
+}
+
+.profileImg {
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.logoImg {
+  width: 30px;
+  display: inline;
+}
+
+h2 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  gap: 1rem;
+  text-align: justify;
+}
+
+.logoContainer {
+  display: flex;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,44 @@
+.main_container {
+  margin-top: 60px;
+  width: 70vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image_title_container {
+  width: 70vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 2vh;
+}
+
+.img_element {
+  width: 8rem;
+  margin-right: 2vw;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.secondary_container {
+  width: 70vw;
+  height: 70vh;
+  text-align: left;
+  margin: 1vh;
+}
+
+.secondary_container p {
+  padding-bottom: 1vh;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}

@@ -1,19 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { RouterProvider } from "react-router-dom";
-import router from "./routes/router";
+import { Provider } from "react-redux";
+import store from "./services/store";
+import ToDoApp from "./ToDoApp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <RouterProvider router={router}>
-      <App />
-    </RouterProvider>
-  </React.StrictMode>
+  <Provider store={store}>
+    <ToDoApp />
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

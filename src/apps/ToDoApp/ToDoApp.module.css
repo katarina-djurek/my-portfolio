@@ -1,0 +1,13 @@
+.ToDoApp {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: xx-large;
+  margin-bottom: 1rem;
+}

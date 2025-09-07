@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.iframe {
+  flex: 1;
+  display: block;
+  width: 100%;
+  border: none;
+}
